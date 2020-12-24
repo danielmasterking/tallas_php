@@ -6,7 +6,6 @@ $update = "UPDATE persona set cedula = '".$post->cedula."' , talla = '".$post->t
 //echo $update;
 $mysqli->query($update);
 
-$response['code'] = '200';
 $response['mensaje'] = 'Registro actualizado exitosamente';
 
 echo json_encode($response);

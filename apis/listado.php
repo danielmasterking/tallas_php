@@ -1,5 +1,5 @@
 <?php 
- $sql = "SELECT * FROM persona";
+ $sql = "SELECT * FROM persona order by id DESC";
 
  $resultado = $mysqli->query($sql);
 
